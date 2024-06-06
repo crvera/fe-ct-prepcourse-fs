@@ -1,0 +1,55 @@
+/* Reset CSS */
+
+/* Establecer márgenes y rellenos en cero */
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Establecer estilos base para elementos HTML */
+html {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  line-height: 1.5;
+}
+
+/* Restablecer estilos para elementos comunes */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Restablecer estilos de listas */
+ul, ol {
+  list-style: none;
+}
+
+/* Restablecer estilos de formularios */
+input, textarea, button {
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+/* Restablecer estilos de imágenes */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,41 @@
+
+h2 {font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: rgb(18, 68, 68); }
+
+h3 {font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px; 
+    color:   blueviolet; }
+
+p {color: rgb(141, 89, 26);}       
+
+    ul {color: chocolate;}
+
+a {font-family: font-family: 'Gemunu Libre', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;}
+
+.lista-de-gatos-ordenada {color: rgb(69, 168, 60);}
+
+.imagen-de-gatos { width: 200px;
+                    border-width: 5px;
+                    border-color: blue;
+                    border-style: ridge;}
+
+.bordes-redondos { border-radius: 100px;}
+
+div { background-color: rgb(156, 182, 104);}
+
+.contenedor-plateado { background-color: rgb(104, 102, 105);}
+
+
+
+[type="radio"] {margin: 20px;}
+[type="checkbox"] {margin: 15px;}
+
+
+
+<!--lo de abajo sirve para hacer que todos los elementos del type que se especifica tomen los valores que damos -->
+#imagen-de-gatos {}
+ 

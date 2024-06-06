@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #189b59;
+    color: #333;
+    margin: 20px; }
+
+/*vamos a cabiar el font-size: 40px que es una medida ABSOLUTA por una UNIDAD RELATIVA*/
+/*font-size: 3em, significa que es tres veces la base del tamaño de la fuente base con que estamos trabajando*/
+.title {  font-size: 3em ; 
+            color: rgba(32, 28, 30, 0.925);
+        }
+
+#principal {font-size: 4em;}
+
+/*quiero que todas las imagenes tengan el mismo tamañño*/
+.logo {width: 200px;
+height: 200px;}
+
+/*creamos la clase .cards para aplicar a los div de las imagenes*/
+.cards {border: 2px solid blue;
+width: fit-content;
+/*el padding se aplica a los bordes y sus valores de arriba derecha abajo izquierda*/
+padding: 1px 1em 2em 1em;
+border-radius: 10%;
+display: flex;
+flex-direction: column;
+gap: 2em;
+align-items: center;}
+
+/*aplicamos un seudo selector a la clase .cards, para lograr un efecto del mouse al pasar por el objeto*/
+.cards:hover {background-color: coral;}
+
+
+/* #titulos. para darle un borde a mi pagina en el header y este selector en el div*/
+#titulos {border: 2px solid black;
+width: 60vw;
+margin: auto;
+padding: 1em;
+display: flex;
+flex-direction: column;
+align-items: center;}
+
+#cards-conteiner {background-color: darkgoldenrod;
+width: 85%;
+margin: auto;
+margin-top: 2em;
+border: 5px solid black;
+border-radius: 15%;
+padding: 2em;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
