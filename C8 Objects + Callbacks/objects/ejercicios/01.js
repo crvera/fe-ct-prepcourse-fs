@@ -2,9 +2,13 @@ const obtenerValorPropiedad = (objeto, propiedad) => {
    // Recibe un objeto y el nombre de una propiedad.
    // Devuelve el valor de esta propiedad.
    // Tu código:
-   const a = objeto[propiedad];
+   
+// Utiliza la notación de corchetes para acceder al valor de la propiedad en el objeto
 
-   return a;
+ const valor = objeto[propiedad];
+  
+// Retorna el valor de la propiedad
+return valor;
 };
 
 module.exports = obtenerValorPropiedad;
